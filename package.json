@@ -14,6 +14,7 @@
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
     "generate:icons": "tsx scripts/generate-icons.ts",
+    "generate:screenshots": "tsx scripts/generate-screenshots.ts",
     "postinstall": "wxt prepare"
   },
   "dependencies": {

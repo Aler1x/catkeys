@@ -5,7 +5,7 @@ export default defineConfig({
   modules: ['@wxt-dev/module-react'],
   manifest: {
     name: 'Catkeys',
-    description: 'Arc-style keyboard shortcuts: copy tab URL and duplicate tab.',
+    description: 'Arc-style keyboard shortcuts for Chrome: copy the current tab URL and duplicate the tab. Shortcuts are fully customizable.',
     permissions: ['tabs', 'clipboardWrite', 'offscreen', 'scripting', 'activeTab'],
     commands: {
       'copy-url': {
